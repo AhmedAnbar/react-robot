@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Modak-Regular';
+  src: url('./fonts/Modak-Regular.eot');
+  src: url('./fonts/Modak-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Modak-Regular.ttf') format('truetype'),
+       url('./fonts/Modak-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Modak';
+  src: url('./fonts/Modak.svg#Modak') format('svg'),
+       url('./fonts/Modak.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  /* text-shadow: 0 5px 5px #3693BF; */
+  font-family: Modak-Regular;
+  font-size: 3rem;
+  margin: 40px 0;
+}
